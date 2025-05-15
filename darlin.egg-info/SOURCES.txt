@@ -1,0 +1,9 @@
+README.md
+setup.py
+darlin/__init__.py
+darlin/help_functions.py
+darlin/settings.py
+darlin.egg-info/PKG-INFO
+darlin.egg-info/SOURCES.txt
+darlin.egg-info/dependency_links.txt
+darlin.egg-info/top_level.txt
