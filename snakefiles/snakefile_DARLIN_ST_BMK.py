@@ -73,7 +73,8 @@ rule extract_spatial_barcode:
     conda:
         "BST-env"
     shell:
-        "~/tools/BSTMatrix_v2.4.f.1/BSTMatrix -c {input.config} -s 1"
+        "BSTMatrix -c {input.config} -s 1"
+        # "~/tools/BSTMatrix_v2.4.f.1/BSTMatrix -c {input.config} -s 1"
 
 rule run_DARLIN_pipeline:
     input:
@@ -178,7 +179,8 @@ rule generate_level_matrix:
     conda:
         "BST-env"
     shell:
-        "~/tools/BSTMatrix_v2.4.f.1/BSTMatrix -c {input.config} -s 3,4,5 && "
+        "BSTMatrix -c {input.config} -s 3,4,5 && "
+        # "~/tools/BSTMatrix_v2.4.f.1/BSTMatrix -c {input.config} -s 3,4,5 && "
         "touch {output.done}"
 
 rule finish:

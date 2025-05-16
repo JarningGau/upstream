@@ -1,4 +1,4 @@
-Upstream codes from fastq to cell by clone matrix.
+Upstream codes from fastq to spot by clone matrix.
 
 
 
